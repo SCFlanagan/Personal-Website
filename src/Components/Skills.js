@@ -35,8 +35,8 @@ function Skills() {
           <span>Django</span>
           <span>SQL</span>
           <span>MongoDB</span>
+          <span>SASS</span>
           <span>jQuery</span>
-          <span>Sass</span>
         </div>
         <h5 id="skill-animate-5" className="o-0">
           Skills
