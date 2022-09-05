@@ -7,7 +7,7 @@ function Projects() {
       interactive street view and must guess where in the world it is located.
       This is a clone of the game{" "}
       <a
-        href="http://geoguessr.com"
+        href="https://geoguessr.com"
         target="_blanket"
         rel="noreferrer noopener"
         className="links"
@@ -48,8 +48,8 @@ function Projects() {
         "Jasmine",
         "Google Maps API",
       ],
-      site: "http://streetguessr.herokuapp.com",
-      github: "http://github.com/SCFlanagan/streetguessr",
+      site: "https://streetguessr.herokuapp.com",
+      github: "https://github.com/SCFlanagan/streetguessr",
     },
     {
       title: "The Beach House",
@@ -64,8 +64,8 @@ function Projects() {
         "PostgreSQL",
         "Bootstrap",
       ],
-      site: "http://thebeachhouse.herokuapp.com",
-      github: "http://github.com/SCFlanagan/the-beach-house",
+      site: "https://thebeachhouse.herokuapp.com",
+      github: "https://github.com/SCFlanagan/the-beach-house",
     },
     {
       title: "Personal Website",
@@ -73,7 +73,7 @@ function Projects() {
       desc: personalSiteDesc,
       tech: ["JavaScript", "React", "Sass"],
       site: "",
-      github: "http://SCFlanagan/personal-website",
+      github: "https://SCFlanagan/personal-website",
     },
   ];
 
