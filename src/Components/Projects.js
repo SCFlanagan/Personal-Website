@@ -44,6 +44,7 @@ function Projects() {
         "Node.JS",
         "Express",
         "MongoDB",
+        "Mongoose",
         "Jasmine",
         "Google Maps API",
       ],
