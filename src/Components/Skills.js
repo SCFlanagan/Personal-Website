@@ -23,7 +23,6 @@ function Skills() {
           <span>React</span>
           <span>Redux</span>
           <span>Node.JS</span>
-          <span>Express</span>
           <span>HTML</span>
           <span>CSS</span>
         </div>
