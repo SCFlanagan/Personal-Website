@@ -62,6 +62,7 @@ function Projects() {
         "Python",
         "Django",
         "PostgreSQL",
+        "AWS",
         "Bootstrap",
       ],
       site: "https://thebeachhouse.herokuapp.com",

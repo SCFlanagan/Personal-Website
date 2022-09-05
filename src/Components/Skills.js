@@ -23,6 +23,7 @@ function Skills() {
           <span>React</span>
           <span>Redux</span>
           <span>Node.JS</span>
+          <span>Express</span>
           <span>HTML</span>
           <span>CSS</span>
         </div>
@@ -35,6 +36,7 @@ function Skills() {
           <span>SQL</span>
           <span>MongoDB</span>
           <span>SASS</span>
+          <span>Java</span>
           <span>jQuery</span>
         </div>
         <h5 id="skill-animate-5" className="o-0">
