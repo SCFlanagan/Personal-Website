@@ -20,10 +20,9 @@ function About() {
         veterinary health care, I began coding recreationally five years ago and
         fell in love with it. I decided to pursue it professionally and recently
         completed an A.S. in Computer Information Systems with a concentration
-        in Web Development and Programming. I am now seeking an entry-level
-        full-stack or front-end developer position. I am based out of
-        Massachusetts, but am hoping to relocate. Contact me if you'd like to
-        connect!
+        in Web Development and Programming. I am now seeking a full-stack or
+        front-end developer position. I am based out of Massachusetts, but am
+        hoping to relocate. Contact me if you'd like to connect!
       </p>
       <SocialIcons animateId="about-animate-3" />
     </div>
