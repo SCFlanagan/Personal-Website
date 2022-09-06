@@ -4,4 +4,4 @@ My personal portfolio of projects featuring a neon sign theme. I took this proje
 
 Built using JavaScript, HTML, & SASS.
 
-Deployed at: http://susan-flanagan.com
+Deployed at: http://www.susan-flanagan.com
