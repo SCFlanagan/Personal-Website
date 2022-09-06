@@ -28,7 +28,7 @@ function Skills() {
           <span>CSS</span>
         </div>
         <h5 id="skill-animate-3" className="o-0">
-          Familiar
+          Knowledgeable
         </h5>
         <div className="skill-section o-0" id="skill-animate-4">
           <span>Python</span>
