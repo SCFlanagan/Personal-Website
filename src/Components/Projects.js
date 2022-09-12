@@ -1,11 +1,18 @@
 import React from "react";
 
 function Projects() {
+  const beachHouseDesc = (
+    <p>
+      This is a mock e-commerce site selling beach-themed products, built
+      entirely by me. I built a restful backend that stores data persistently in
+      a cloud database using AWS RDS and S3. It features a responsive UI design
+      and user authentication, with two different experiences for users who are
+      logged in and those who are not.
+    </p>
+  );
   const streetguessrDesc = (
     <p>
-      StreetGuessr is a game built using the Google Maps API. You are given an
-      interactive street view and must guess where in the world it is located.
-      This is a clone of the game{" "}
+      StreetGuessr is a clone of the game{" "}
       <a
         href="https://geoguessr.com"
         target="_blanket"
@@ -14,25 +21,41 @@ function Projects() {
       >
         Geoguessr
       </a>{" "}
-      and was a solo project.
-    </p>
-  );
-  const beachHouseDesc = (
-    <p>
-      A mock e-commerce site selling beach-themed products, featuring a
-      responsive design. This was a solo project.
+      , replicating its exact game function and responsive UI design. You are
+      given a street view and must guess where in the world it is located. I
+      integrated the Google Maps API, featuring two different interactive maps
+      and moveable markers. It features a RESTful API, with tests, that stores
+      map locations using a noSQL database. It was a solo project.
     </p>
   );
   const personalSiteDesc = (
     <p>
-      I took this project as an opportunity to have some fun with the front end.
-      I played around with CSS animations and achieved the neon lights effect
-      using a combination of box-shadow, text-shadow and photoshop. This was a
-      solo project.
+      I took creating my portfolio site as an opportunity to have some fun with
+      the front end. I achieved the neon lights effect using a combination of
+      photoshop and the CSS properties box-shadow, text-shadow. I used CSS
+      animations to animate elements while scrolling and to mimic the movement
+      of neon signs. This site features a responsive UI design.
     </p>
   );
 
   const projectDetails = [
+    {
+      title: "The Beach House",
+      img: require("../images/TheBeachHouse.png"),
+      desc: beachHouseDesc,
+      tech: [
+        "JavaScript",
+        "React",
+        "Redux",
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "AWS",
+        "Bootstrap",
+      ],
+      site: "https://thebeachhouse.herokuapp.com",
+      github: "https://github.com/SCFlanagan/the-beach-house",
+    },
     {
       title: "StreetGuessr",
       img: require("../images/Streetguessr2.png"),
@@ -52,27 +75,10 @@ function Projects() {
       github: "https://github.com/SCFlanagan/streetguessr",
     },
     {
-      title: "The Beach House",
-      img: require("../images/TheBeachHouse.png"),
-      desc: beachHouseDesc,
-      tech: [
-        "JavaScript",
-        "React",
-        "Redux",
-        "Python",
-        "Django",
-        "PostgreSQL",
-        "AWS",
-        "Bootstrap",
-      ],
-      site: "https://thebeachhouse.herokuapp.com",
-      github: "https://github.com/SCFlanagan/the-beach-house",
-    },
-    {
       title: "Personal Website",
       img: require("../images/personal-website.png"),
       desc: personalSiteDesc,
-      tech: ["JavaScript", "React", "Sass"],
+      tech: ["JavaScript", "React", "Sass", "Photoshop"],
       site: "",
       github: "https://SCFlanagan/personal-website",
     },

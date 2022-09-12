@@ -2,7 +2,7 @@ function Landing() {
   return (
     <div className="landing-page">
       <h1 className="landing-title start-animation">Susan Flanagan</h1>
-      <h1 className="landing-title start-animation">Web Developer</h1>
+      <h1 className="landing-title start-animation">Software Developer</h1>
       <div className="scroll-down scroll-down-appear-animation">
         <div id="scroll-down">
           <p>Scroll Down </p>
