@@ -14,6 +14,7 @@ function App() {
       titles[1].className = "landing-title text-surge-animation";
     }, 2600);
 
+    // Animate an element when it comes into view
     const animateWhileScrolling = (triggerId, idAndClassArr) => {
       const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
@@ -60,7 +61,7 @@ function App() {
     }
 
     // Make scroll down indication disappear when you start to scroll
-    animateWhileScrolling("scroll-down-fade-marker", [
+    animateWhileScrolling("animation-marker-1", [
       {
         id: "scroll-down",
         class: "scroll-down-fade-animation",

@@ -4,7 +4,7 @@ import SocialIcons from "./SocialIcons";
 function About() {
   return (
     <div className="about-page">
-      <div id="scroll-down-fade-marker"></div>
+      <div id="animation-marker-1"></div>
       <div id="about-animate-0" className="o-0">
         <h1 className="section-title text-surge-animation">About</h1>
       </div>

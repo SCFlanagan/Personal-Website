@@ -454,7 +454,7 @@ $darkblue: #030314;
 @-webkit-keyframes rise-and-appear {
   from {
     opacity: 0;
-    transform: translateY(100%);
+    transform: translateY(60%);
   }
   to {
     opacity: 1;
@@ -464,7 +464,7 @@ $darkblue: #030314;
 @keyframes rise-and-appear {
   from {
     opacity: 0;
-    transform: translateY(100%);
+    transform: translateY(60%);
   }
   to {
     opacity: 1;
@@ -485,7 +485,7 @@ $darkblue: #030314;
 @-webkit-keyframes project-rise-and-appear {
   from {
     opacity: 0;
-    transform: translateY(25%);
+    transform: translateY(15%);
   }
   to {
     opacity: 1;
@@ -495,7 +495,7 @@ $darkblue: #030314;
 @keyframes project-rise-and-appear {
   from {
     opacity: 0;
-    transform: translateY(25%);
+    transform: translateY(15%);
   }
   to {
     opacity: 1;

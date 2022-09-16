@@ -3,6 +3,7 @@ import React from "react";
 function Skills() {
   return (
     <div className="skills-page">
+      <div id="animation-marker-2"></div>
       <img
         className="donut dimmer-animation"
         src={require("../images/donut.png")}
