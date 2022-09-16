@@ -962,33 +962,6 @@ $darkblue: #030314;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .flamingo-surge-animation {
-    -webkit-animation: flamingo-surge 0.1s linear;
-    animation: flamingo-surge 0.1s linear;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-  }
-}
-
-@-webkit-keyframes flamingo-surge {
-  from {
-    background-image: url("./images/flamingo.png");
-  }
-  to {
-    background-image: url("./images/flamingo2.png");
-  }
-}
-
-@keyframes flamingo-surge {
-  from {
-    background-image: url("./images/flamingo.png");
-  }
-  to {
-    background-image: url("./images/flamingo2.png");
-  }
-}
-
 @-webkit-keyframes text-flicker {
   0% {
     color: gray;

@@ -58,7 +58,7 @@ function Projects() {
     },
     {
       title: "StreetGuessr",
-      img: require("../images/Streetguessr2.png"),
+      img: require("../images/Streetguessr.png"),
       desc: streetguessrDesc,
       tech: [
         "JavaScript",
