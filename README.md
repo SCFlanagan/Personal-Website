@@ -5,7 +5,8 @@ A portfolio website showcasing my web development projects, skills, and contact 
 ## Features
 * A responsive UI design
 * Achieved neon lights effect using CSS box-shadow and text-shadow and Photoshop for the images
-* Used CSS animations to mimic the movement of neon signs
+* CSS animations triggered by scrolling into view, using the Intersection Observer API in React
+* Replicates the movement of neon signs using CSS animations
 
 ## Tech
 * JavaScript
