@@ -1,6 +1,6 @@
 # Portfolio Website
 
-A portfolio website featuring my web development projects, skills, and contact information.
+A portfolio website showcasing my web development projects, skills, and contact information.
 
 ## Features
 * A responsive UI design
