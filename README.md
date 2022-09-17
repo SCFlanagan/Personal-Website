@@ -18,6 +18,6 @@ A portfolio website showcasing my web development projects, skills, and contact 
 
 https://susan-flanagan.com
 
-<img src="https://github.com/SCFlanagan/Personal-Website/raw/master/src/images/personal-website.png" width="600" />
+<img src="https://github.com/SCFlanagan/Personal-Website/raw/master/src/images/personal-website.png" />
 
-<img src="https://github.com/SCFlanagan/Personal-Website/raw/master/src/images/contact-page.png" width="600" />
+<img src="https://github.com/SCFlanagan/Personal-Website/raw/master/src/images/contact-page.png" />
