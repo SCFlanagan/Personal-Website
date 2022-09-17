@@ -1,7 +1,17 @@
-# Personal Website
+# Portfolio Website
 
-My personal portfolio of projects featuring a neon sign theme. I took this project as an opportunity to have some fun with the front end. I played around with CSS animations and achieved the neon lights effect using a combination of box-shadow, text-shadow and photoshop. This was a solo project.
+A portfolio website featuring my web development projects and information about me. 
 
-Built using JavaScript, HTML, & SASS.
+Features:
+* A responsive UI design
+* Achieved neon lights effect using CSS box-shadow and text-shadow and Photoshop for the images
+* Used CSS animations to mimic the movement of neon signs
 
-Deployed at: http://www.susan-flanagan.com
+Built using JavaScript, React, HTML, & SASS.
+
+Deployed at https://susan-flanagan.com
+
+
+<img src="https://github.com/SCFlanagan/Personal-Website/raw/master/src/images/personal-website.png" width="600" />
+
+<img src="https://github.com/SCFlanagan/Personal-Website/raw/master/src/images/contact-page.png" width="600" />
