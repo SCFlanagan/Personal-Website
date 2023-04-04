@@ -24,6 +24,7 @@ function Skills() {
           <span>React</span>
           <span>Redux</span>
           <span>Node.JS</span>
+          <span>SQL</span>
           <span>Express</span>
           <span>HTML</span>
           <span>CSS</span>
@@ -34,7 +35,6 @@ function Skills() {
         <div className="skill-section o-0" id="skill-animate-4">
           <span>Python</span>
           <span>Django</span>
-          <span>SQL</span>
           <span>MongoDB</span>
           <span>SASS</span>
           <span>Java</span>
@@ -47,11 +47,11 @@ function Skills() {
           className="skill-section o-0 margin-bottom-skills"
           id="skill-animate-6"
         >
-          <span>Git</span>
           <span>Restful APIs</span>
+          <span>UI/UX Design</span>
           <span>Responsive Web Design</span>
           <span>Testing</span>
-          <span>Basic Photoshop</span>
+          <span>Git</span>
         </div>
       </div>
     </div>
