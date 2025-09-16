@@ -15,11 +15,7 @@ function About() {
         className="bio-photo o-0"
       />
       <p className="bio o-0" id="about-animate-2">
-        Hi! I'm Susan. I am a full-stack web developer who works mainly with
-        JavaScript. My specialty is building mobile apps and websites using
-        React Native and React on the front end and Node and SQL on the back
-        end. I love creating intuitive and appealing UI/UX designs. I am based
-        out of Massachusetts. Contact me if you'd like to connect!
+      Hi, I'm Susan. I am a front-end engineer with 3 years of experience building and maintaining web and mobile applications. My area of expertise is in React, React Native, and .NET MAUI, with additional experience in Node.js, .NET, AngularJS, and SQL. I'm skilled at leading projects from concept to deployment and am passionate about delivering responsive, user-centered experiences. I have a proven track record of full-stack development, project ownership, and maintaining live applications. I am based in Millbury, Massachusetts. Contact me if you'd like to connect!
       </p>
       <SocialIcons animateId="about-animate-3" />
     </div>
