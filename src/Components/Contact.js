@@ -21,19 +21,19 @@ function Contact() {
       />
       <img className="planet" src={require("../images/planet.png")} alt="" />
       <div className="contact-content">
-        <h1 className="section-title">Contact Me</h1>
-        <p className="contact-text">You can download my resume here:</p>
+        <h1 className="section-title mb-0">Contact Me</h1>
+        <p className="contact-text mb-0">You can download my resume here:</p>
         <a
           className="resume-btn "
           id="resume-btn"
           target="_blank"
-          rel="noreferrer"
-          href="https://www.docdroid.net/UEPJAUp/susanflanaganresume-pdf"
+          rel="noopener noreferrer"
+          href="/Susan_Flanagan_Resume.pdf"
         >
           RESUME
         </a>
         <p className="contact-text">
-          Check me out on LinkedIn and GitHub or send me an email to connect.
+          Visit my LinkedIn or GitHub or send me an email to connect.
         </p>
         <SocialIcons />
         <p className="contact-text footer-text">

@@ -11,51 +11,53 @@ function Projects() {
     </p>
   );
   const streetguessrDesc = (
-    <p>
-      StreetGuessr is a clone of the game{" "}
+    <div>
+      <p>
+      StreetGuessr is an interactive location-based web application inspired by{" "}
       <a
         href="https://geoguessr.com"
-        target="_blanket"
+        target="_blank"
         rel="noreferrer noopener"
         className="links"
       >
         Geoguessr
-      </a>{" "}
-      , replicating its exact game function and responsive UI design. You are
-      given a street view and must guess where in the world it is located. I
-      integrated the Google Maps API, featuring two different interactive maps
-      and moveable markers. It features a RESTful API, with tests, that stores
-      map locations using a noSQL database. It was a solo project.
+      </a>
+      . Users are placed into Google Street View locations and must identify where they are in the world using an interactive map interface.
+  </p>
+  <p>
+The project integrates the Google Maps and Street View APIs, features responsive UI design, and includes backend functionality for storing game data and map locations. It was built as a solo full-stack project using React, Node.js, and Redux.
     </p>
+    </div>
   );
   const personalSiteDesc = (
-    <p>
-      I took creating my portfolio site as an opportunity to have some fun with
-      the front end. I achieved the neon lights effect using a combination of
-      photoshop and the CSS properties box-shadow, text-shadow. I used CSS
-      animations to animate elements while scrolling and to mimic the movement
-      of neon signs. This site features a responsive UI design.
-    </p>
+    <div>
+      <p>
+        I designed and developed this portfolio site as a creative frontend project centered around a custom neon sign-inspired style.
+      </p>
+      <p>
+        The site features handcrafted UI components, CSS animations, glow effects, and custom graphics designed to recreate the feel and movement of neon signs, while showcasing my development experience.
+      </p>
+    </div>
   );
 
   const projectDetails = [
-    {
-      title: "The Beach House",
-      img: require("../images/TheBeachHouse.png"),
-      desc: beachHouseDesc,
-      tech: [
-        "JavaScript",
-        "React",
-        "Redux",
-        "Python",
-        "Django",
-        "PostgreSQL",
-        "AWS",
-        "Bootstrap",
-      ],
-      site: "https://thebeachhouse.herokuapp.com",
-      github: "https://github.com/SCFlanagan/the-beach-house",
-    },
+    // {
+    //   title: "The Beach House",
+    //   img: require("../images/TheBeachHouse.png"),
+    //   desc: beachHouseDesc,
+    //   tech: [
+    //     "JavaScript",
+    //     "React",
+    //     "Redux",
+    //     "Python",
+    //     "Django",
+    //     "PostgreSQL",
+    //     "AWS",
+    //     "Bootstrap",
+    //   ],
+    //   site: "https://thebeachhouse.herokuapp.com",
+    //   github: "https://github.com/SCFlanagan/the-beach-house",
+    // },
     {
       title: "StreetGuessr",
       img: require("../images/Streetguessr.png"),
@@ -71,16 +73,16 @@ function Projects() {
         "Jasmine",
         "Google Maps API",
       ],
-      site: "https://streetguessr.herokuapp.com",
+      site: "",
       github: "https://github.com/SCFlanagan/streetguessr",
     },
     {
-      title: "Personal Website",
+      title: "Portfolio Website",
       img: require("../images/personal-website.png"),
       desc: personalSiteDesc,
-      tech: ["JavaScript", "React", "Sass", "Photoshop"],
+      tech: ["JavaScript", "React", "SCSS"],
       site: "",
-      github: "https://SCFlanagan/personal-website",
+      github: "https://github.com/SCFlanagan/personal-website",
     },
   ];
 
@@ -91,14 +93,10 @@ function Projects() {
         src={require("../images/rocketship.png")}
         alt=""
       />
-      <img
-        className="balloon-animal"
-        src={require("../images/balloonanimal.png")}
-        alt=""
-      ></img>
+      <div className="cell-phone cell-animation" aria-hidden="true"></div>
       <div id="project-animate-0" className="o-0">
         <h1 className="section-title">
-          <span className="text-flicker-animation">P</span>rojects
+          Personal Projects
         </h1>
       </div>
       <div className="projects-container">

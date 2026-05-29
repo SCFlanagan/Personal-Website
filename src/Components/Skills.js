@@ -27,34 +27,40 @@ function Skills() {
           <span>CSS</span>
         </div>
         <h5 id="skill-animate-3" className="o-0">
-          Frameworks/Libraries
+          Frontend & Mobile
         </h5>
         <div className="skill-section o-0" id="skill-animate-4">
           <span>React</span>
           <span>React Native</span>
-          <span>Node.js</span>
-          <span>Express</span>
-          <span>Redux</span>
-          <span>AngularJS</span>
+          <span>Angular</span>
           <span>.NET Maui</span>
-          <span>.NET</span>
+          <span>Redux</span>
         </div>
         <h5 id="skill-animate-5" className="o-0">
-          Other Skills
+          Backend
+        </h5>
+        <div className="skill-section o-0" id="skill-animate-6">
+          <span>Node.js</span>
+          <span>Express</span>
+          <span>.NET</span>
+          <span>REST APIs</span>
+          <span>SQL Server</span>
+        </div>
+        <h5 id="skill-animate-7" className="o-0">
+          Experience Highlights
         </h5>
         <div
           className="other-skill-section o-0 margin-bottom-skills"
-          id="skill-animate-6"
+          id="skill-animate-8"
         >
+          <span>Full-Stack Project Ownership</span>
+          <span>End-to-End Product Development</span>
+          <span>Cross-Platform Development</span>
+          <span>App Store & Google Play Deployment</span>
+          <span>Frontend Architecture</span>
           <span>UI/UX Design and Implementation</span>
-          <span>API Integration</span>
-          <span>Front-end architecture</span>
-          <span>Full-stack project ownership</span>
-          <span>Database Design</span>
-          <span>Azure (deployment)</span>
-          <span>App Store & Google Play deployment</span>
-          <span>Responsive design</span>
-          <span>Git</span>
+          <span>API Development & Integration</span>
+          <span>Responsive Web Design</span>
         </div>
       </div>
     </div>

@@ -6,17 +6,27 @@ function About() {
     <div className="about-page">
       <div id="animation-marker-1"></div>
       <div id="about-animate-0" className="o-0">
-        <h1 className="section-title text-surge-animation">About</h1>
+        <h1 className="section-title text-surge-animation">
+        <span className="text-flicker-animation">A</span>bout
+        </h1>
       </div>
       <img
         id="about-animate-1"
-        src={require("../images/biophoto.JPG")}
+        src={require("../images/headshot.png")}
         alt=""
         className="bio-photo o-0"
       />
-      <p className="bio o-0" id="about-animate-2">
-      Hi, I'm Susan. I am a front-end engineer with 3 years of experience building and maintaining web and mobile applications. My area of expertise is in React, React Native, and .NET MAUI, with additional experience in Node.js, .NET, AngularJS, and SQL. I'm skilled at leading projects from concept to deployment and am passionate about delivering responsive, user-centered experiences. I have a proven track record of full-stack development, project ownership, and maintaining live applications. I am based in Millbury, Massachusetts. Contact me if you'd like to connect!
+      <div className="bio o-0" id="about-animate-2">
+      <p>
+        Hi, I’m Susan, a frontend and mobile engineer who enjoys building intuitive, user-focused applications from design through deployment. 
       </p>
+      <p>
+        Having spent the last several years working in a small, fast-moving engineering environment, I’ve had the opportunity to take end-to-end ownership of multiple cross-platform mobile and web applications, including frontend architecture, UI/UX design, API development, database integration, and App Store/Google Play deployments.
+      </p>
+      <p>
+        My experience includes React, React Native, Angular, and .NET MAUI, along with backend API and database development using Node.js, Express, .NET, and SQL Server. 
+      </p>
+      </div>
       <SocialIcons animateId="about-animate-3" />
     </div>
   );

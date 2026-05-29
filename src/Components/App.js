@@ -30,7 +30,7 @@ function App() {
     };
 
     // Animate the skills page while scrolling.
-    for (let i = 0; i < 7; i++) {
+    for (let i = 0; i < 9; i++) {
       animateWhileScrolling(`skill-animate-${i}`, [
         {
           id: `skill-animate-${i}`,
@@ -50,7 +50,7 @@ function App() {
     }
 
     // Animate the projects page while scrolling.
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < 3; i++) {
       let animationClass =
         i === 0
           ? "rise-and-appear-animation"

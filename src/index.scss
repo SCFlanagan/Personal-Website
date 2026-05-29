@@ -2,6 +2,7 @@
 $white: #fff;
 $blue: #5271ff;
 $darkblue: #030314;
+$yellow: #ffed23;
 
 /* Mixins */
 @mixin flex-center-column {
@@ -70,7 +71,7 @@ $darkblue: #030314;
 
 .links {
   text-decoration: none;
-  color: $blue;
+  color: $yellow;
   transition: color 0.5s;
 }
 
@@ -88,7 +89,7 @@ $darkblue: #030314;
   h1 {
     @include white-neon-effect;
     font-family: "Sacramento", sans-serif;
-    font-size: calc(35px + 2vw);
+    font-size: calc(30px + 2vw);
   }
 }
 
@@ -225,16 +226,17 @@ $darkblue: #030314;
   width: 60%;
   border: solid 2px $white;
   border-radius: 5px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  padding: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px 40px;
+  padding: 40px;
   margin: 0 auto 30px auto;
   box-shadow: 0px 0px 20px 0px $blue;
   z-index: 7;
   background-color: $darkblue;
+
   span {
-    padding: 10px 10px;
+    text-align: center;
   }
 }
 
@@ -259,7 +261,7 @@ $darkblue: #030314;
   max-width: 800px;
   margin: auto;
   padding-bottom: 2vh;
-  margin-bottom: 10vw;
+  margin-bottom: 5vw;
   box-shadow: 0px 0px 20px 0px $blue;
   border-radius: 2px;
   background-color: $darkblue;
@@ -405,7 +407,7 @@ $darkblue: #030314;
   height: 40vw;
   right: 0;
   bottom: 0;
-  transform: rotate(10deg);
+  transform: rotate(20deg);
 }
 
 .balloon-animal {
@@ -418,6 +420,21 @@ $darkblue: #030314;
   left: 0;
   top: -35vh;
   z-index: 1;
+}
+
+.cell-phone {
+  @include icon-image-styling;
+  height: 30vw;
+  max-height: 30vh;
+  width: 30vw;
+  max-width: 30vh;
+  position: absolute;
+  left: 5vw;
+  top: -25vh;
+  z-index: 1;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .donut {
@@ -895,6 +912,41 @@ $darkblue: #030314;
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .cell-animation {
+    -webkit-animatio: cell-animate 3s linear infinite;
+    animation: cell-animate 3s linear infinite;
+  }
+}
+
+@-webkit-keyframes cell-animate {
+  0%, 32% {
+    background-image: url("./images/no-glow-cell.png");
+  }
+
+  33%, 65% {
+    background-image: url("./images/half-glow-cell.png");
+  }
+
+  66%, 100% {
+    background-image: url("./images/full-glow-cell.png");
+  }
+}
+
+@keyframes cell-animate {
+  0%, 32% {
+    background-image: url("./images/no-glow-cell.png");
+  }
+
+  33%, 65% {
+    background-image: url("./images/half-glow-cell.png");
+  }
+
+  66%, 100% {
+    background-image: url("./images/full-glow-cell.png");
   }
 }
 
