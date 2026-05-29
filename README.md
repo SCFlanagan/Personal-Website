@@ -1,13 +1,14 @@
 # Portfolio Website
 
-A portfolio website featuring my web development projects and information about me. 
+A portfolio website showcasing my web development skills, projects, and contact information.
 
 Features:
-* A responsive UI design
 * Achieved neon lights effect using CSS box-shadow and text-shadow and Photoshop for the images
-* Used CSS animations to mimic the movement of neon signs
+* Replicates the movement of neon signs using CSS animations
+* CSS animations triggered by scrolling into view, using the Intersection Observer API in React
+* A responsive UI design
 
-Built using JavaScript, React, HTML, & SASS.
+Built using JavaScript, React, & SCSS.
 
 Deployed at https://susan-flanagan.com
 
