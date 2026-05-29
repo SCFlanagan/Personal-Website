@@ -18,7 +18,7 @@ function About() {
       />
       <div className="bio o-0" id="about-animate-2">
       <p>
-        Hi, I’m Susan, a frontend and mobile engineer who enjoys building intuitive, user-focused applications from design through deployment. 
+        Hi, I’m Susan, a mobile and frontend engineer who enjoys building intuitive, user-focused applications from design through deployment. 
       </p>
       <p>
         Having spent the last several years working in a small, fast-moving engineering environment, I’ve had the opportunity to take end-to-end ownership of multiple cross-platform mobile and web applications, including frontend architecture, UI/UX design, API development, database integration, and App Store/Google Play deployments.
