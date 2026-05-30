@@ -89,12 +89,16 @@ $yellow: #ffed23;
   h1 {
     @include white-neon-effect;
     font-family: "Sacramento", sans-serif;
-    font-size: calc(30px + 2vw);
+    text-align: center;
   }
 }
 
 .landing-title {
-  @include white-neon-effect;
+  font-size: calc(30px + 2vw);
+}
+
+.landing-subtitle {
+  font-size: calc(30px + 1vw);
 }
 
 .scroll-down {
@@ -140,6 +144,10 @@ $yellow: #ffed23;
   font-weight: bold;
   font-size: 2.5vh;
   margin: 20px 0;
+
+  @media (max-width: 768px) {
+    width: 85%;
+  }
 }
 
 /* SocialIcons Component */
@@ -202,6 +210,10 @@ $yellow: #ffed23;
     text-align: left;
     color: $white;
     font-size: 1.4rem;
+
+    @media (max-width: 768px) {
+      margin: 20px auto 5px 5%;
+    }
   }
 }
 
@@ -217,8 +229,13 @@ $yellow: #ffed23;
   box-shadow: 0px 0px 20px 0px $blue;
   z-index: 7;
   background-color: $darkblue;
+
   span {
     padding: 10px 10px;
+  }
+
+  @media (max-width: 768px) {
+    width: 85%;
   }
 }
 
@@ -237,6 +254,13 @@ $yellow: #ffed23;
 
   span {
     text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    width: 85%;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 20px;
   }
 }
 
@@ -265,6 +289,11 @@ $yellow: #ffed23;
   box-shadow: 0px 0px 20px 0px $blue;
   border-radius: 2px;
   background-color: $darkblue;
+
+
+  @media (max-width: 768px) {
+    width: 85%;
+  }
 }
 
 .proj-img {
@@ -407,7 +436,7 @@ $yellow: #ffed23;
   height: 40vw;
   right: 0;
   bottom: 0;
-  transform: rotate(20deg);
+  transform: rotate(10deg);
   background-image: url("./images/palmtree.png");
 }
 
@@ -430,7 +459,7 @@ $yellow: #ffed23;
   width: 30vw;
   max-width: 30vh;
   position: absolute;
-  left: 5vw;
+  left: 2vw;
   top: -25vh;
   z-index: 1;
   background-size: contain;
@@ -438,11 +467,34 @@ $yellow: #ffed23;
   background-position: center;
 }
 
+.cassette {
+  @include icon-image-styling;
+  height: 25vw;
+  max-height: 25vh;
+  position: absolute;
+  left: 2vw;
+  top: -12vh;
+  transform: rotate(-10deg);
+  z-index: 1;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.computer {
+  height: calc(125px + 6vw);
+  position: absolute;
+  right: 5vw;
+  top: -15vh;
+  transform: rotate(10deg);
+  z-index: 1;
+}
+
 .donut {
   height: calc(125px + 10vw);
   position: absolute;
   right: 5vw;
-  top: -25vh;
+  top: -20vh;
   transform: rotate(-10deg);
   z-index: 1;
 }

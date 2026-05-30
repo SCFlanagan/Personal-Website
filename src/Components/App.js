@@ -9,9 +9,10 @@ import Contact from "./Contact";
 function App() {
   useEffect(() => {
     setTimeout(() => {
-      let titles = document.getElementsByClassName("landing-title");
-      titles[0].className = "landing-title text-surge-animation";
-      titles[1].className = "landing-title text-surge-animation";
+      let title = document.getElementsByClassName("landing-title");
+      title.className = "landing-title text-surge-animation";
+      let subtitle = document.getElementsByClassName("landing-subtitle");
+      subtitle = "landing-subtitle text-surge-animation";
     }, 2600);
 
     // Animate an element when it comes into view

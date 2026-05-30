@@ -93,7 +93,12 @@ The project integrates the Google Maps and Street View APIs, features responsive
         src={require("../images/rocketship.png")}
         alt=""
       />
-      <div className="cell-phone cell-animation" aria-hidden="true"></div>
+      <img
+        className="cassette"
+        src={require("../images/cassette.png")}
+        alt=""
+      />
+      {/* <div className="cell-phone cell-animation" aria-hidden="true"></div> */}
       <div id="project-animate-0" className="o-0">
         <h1 className="section-title">
           Personal Projects
